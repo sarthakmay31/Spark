@@ -1,0 +1,7 @@
+
+
+<<< Recorded commands on Fri Jun 28 2024 10:11:47 GMT+0530 (India Standard Time)
+I.click('a[title="Register"]')
+I.seeText('Register for a new local account')
+I.seeElement('//span[text()='Register for a new local account']')
+I.seeElement('//span[text()="Register for a new local account"]')

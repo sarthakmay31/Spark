@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1719550215447' stop='1719550241373'>
+    <name>Spark Rock Customer Success Center - Registration:</name>
+    <title>Spark Rock Customer Success Center - Registration:</title>
+    <test-cases>
+        <test-case start='1719550216360' status='passed' stop='1719550228201'>
+            <name>Verify Successfull Registration on spark rock customer portal</name>
+            <title>Verify Successfull Registration on spark rock customer portal</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1719550217105' status='passed' stop='1719550222903'>
+                    <name>I am on page "https://success.sparkrock.com/SignIn?returnUrl=%2Fknowledgebase%2F"</name>
+                    <title>I am on page "https://success.sparkrock.com/SignIn?returnUrl=%2Fknowledgebase%2F"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550222903' status='passed' stop='1719550223383'>
+                    <name>I click "a[title="Register"]"</name>
+                    <title>I click "a[title="Register"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550223384' status='passed' stop='1719550223600'>
+                    <name>I wait for visible "//span[text()="Register for a new local account"]"</name>
+                    <title>I wait for visible "//span[text()="Register for a new local account"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550223600' status='passed' stop='1719550223609'>
+                    <name>I see element "//span[text()="Register for a new local account"]"</name>
+                    <title>I see element "//span[text()="Register for a new local account"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550223609' status='passed' stop='1719550224044'>
+                    <name>I fill field "input[id="EmailTextBox"]", "sarthak1235@gmail.com"</name>
+                    <title>I fill field "input[id="EmailTextBox"]", "sarthak1235@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550224044' status='passed' stop='1719550224354'>
+                    <name>I fill field "input[id="UserNameTextBox"]", "sarthak313123"</name>
+                    <title>I fill field "input[id="UserNameTextBox"]", "sarthak313123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550224354' status='passed' stop='1719550224745'>
+                    <name>I fill field "input[id="PasswordTextBox"]", "Password@12345"</name>
+                    <title>I fill field "input[id="PasswordTextBox"]", "Password@12345"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550224745' status='passed' stop='1719550225080'>
+                    <name>I fill field "input[id="ConfirmPasswordTextBox"]", "Password@12345"</name>
+                    <title>I fill field "input[id="ConfirmPasswordTextBox"]", "Password@12345"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550225081' status='passed' stop='1719550227391'>
+                    <name>I click "input[id="SubmitButton"]"</name>
+                    <title>I click "input[id="SubmitButton"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550227391' status='passed' stop='1719550228195'>
+                    <name>I wait for visible "//span[text()="Your email requires confirmation."]"</name>
+                    <title>I wait for visible "//span[text()="Your email requires confirmation."]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550228195' status='passed' stop='1719550228201'>
+                    <name>I see element "//span[text()="Your email requires confirmation."]"</name>
+                    <title>I see element "//span[text()="Your email requires confirmation."]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1719550228251' status='passed' stop='1719550241329'>
+            <name>Verify User Can Go To KnowledgeBase Once Registration Successfull</name>
+            <title>Verify User Can Go To KnowledgeBase Once Registration Successfull</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1719550228364' status='passed' stop='1719550235419'>
+                    <name>I am on page "https://success.sparkrock.com/SignIn?returnUrl=%2Fknowledgebase%2F"</name>
+                    <title>I am on page "https://success.sparkrock.com/SignIn?returnUrl=%2Fknowledgebase%2F"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550235419' status='passed' stop='1719550235873'>
+                    <name>I click "a[title="Register"]"</name>
+                    <title>I click "a[title="Register"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550235873' status='passed' stop='1719550236087'>
+                    <name>I wait for visible "//span[text()="Register for a new local account"]"</name>
+                    <title>I wait for visible "//span[text()="Register for a new local account"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550236087' status='passed' stop='1719550236096'>
+                    <name>I see element "//span[text()="Register for a new local account"]"</name>
+                    <title>I see element "//span[text()="Register for a new local account"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550236096' status='passed' stop='1719550236518'>
+                    <name>I fill field "input[id="EmailTextBox"]", "sarthak1234@gmail.com"</name>
+                    <title>I fill field "input[id="EmailTextBox"]", "sarthak1234@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550236518' status='passed' stop='1719550236811'>
+                    <name>I fill field "input[id="UserNameTextBox"]", "sarthak313131"</name>
+                    <title>I fill field "input[id="UserNameTextBox"]", "sarthak313131"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550236811' status='passed' stop='1719550237147'>
+                    <name>I fill field "input[id="PasswordTextBox"]", "Password@12345"</name>
+                    <title>I fill field "input[id="PasswordTextBox"]", "Password@12345"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550237147' status='passed' stop='1719550237469'>
+                    <name>I fill field "input[id="ConfirmPasswordTextBox"]", "Password@12345"</name>
+                    <title>I fill field "input[id="ConfirmPasswordTextBox"]", "Password@12345"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550237469' status='passed' stop='1719550240063'>
+                    <name>I click "input[id="SubmitButton"]"</name>
+                    <title>I click "input[id="SubmitButton"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550240063' status='passed' stop='1719550240864'>
+                    <name>I wait for visible "//span[text()="Your email requires confirmation."]"</name>
+                    <title>I wait for visible "//span[text()="Your email requires confirmation."]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550240865' status='passed' stop='1719550240870'>
+                    <name>I see element "//span[text()="Your email requires confirmation."]"</name>
+                    <title>I see element "//span[text()="Your email requires confirmation."]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550240870' status='passed' stop='1719550241318'>
+                    <name>I click "//nav[@class="s-header__nav"]/a[1]"</name>
+                    <title>I click "//nav[@class="s-header__nav"]/a[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1719550241318' status='passed' stop='1719550241329'>
+                    <name>I see element "//div[text()="Knowledge Categories"]"</name>
+                    <title>I see element "//div[text()="Knowledge Categories"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
