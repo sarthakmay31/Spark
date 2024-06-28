@@ -54,3 +54,6 @@ The tests are prioritized based on the application's primary use cases. The logi
 <img width="1389" alt="Screenshot 2024-06-28 at 10 35 08 AM" src="https://github.com/sarthakmay31/Spark/assets/47483105/fae8dabe-0a8c-4748-b34c-f482729b93a7">
 <img width="1395" alt="Screenshot 2024-06-28 at 10 35 15 AM" src="https://github.com/sarthakmay31/Spark/assets/47483105/1d2100aa-0a35-424a-9cb2-e88fd0a30c6b">
 
+### Link to the video:
+
+https://drive.google.com/file/d/1WZIjxCPg2kdUdt2O7HKs6x4D5uCGVNfJ/view?usp=sharing
