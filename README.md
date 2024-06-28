@@ -47,3 +47,10 @@
 ### Prioritization and Alignment with Application Use Case:
 
 The tests are prioritized based on the application's primary use cases. The login and registration functionalities are fundamental for user interaction with the Spark Rock Customer Success Center. Ensuring these core functionalities work correctly aligns with the goal of providing a secure and user-friendly platform for customer success management.
+
+
+### Overview of Allure Reports On Execution Completion Of Tests:
+<img width="1385" alt="Screenshot 2024-06-28 at 10 34 41 AM" src="https://github.com/sarthakmay31/Spark/assets/47483105/b1200d91-56b3-4749-b7e5-6f02e88e0da8">
+<img width="1389" alt="Screenshot 2024-06-28 at 10 35 08 AM" src="https://github.com/sarthakmay31/Spark/assets/47483105/fae8dabe-0a8c-4748-b34c-f482729b93a7">
+<img width="1395" alt="Screenshot 2024-06-28 at 10 35 15 AM" src="https://github.com/sarthakmay31/Spark/assets/47483105/1d2100aa-0a35-424a-9cb2-e88fd0a30c6b">
+
